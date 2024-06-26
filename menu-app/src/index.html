@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your JavaScript Playground</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1 id="headerTitle">Our Menu</h1>
+      <div id="headerBar"></div>
+      <div id="cartButtonContainer">
+        <button id="cartButton">&#x1F6D2; 2</button>
+      </div>
+      <div id="allButtons">
+        <button class="categoryButton">All</button>
+        <button class="categoryButton">Breakfast</button>
+        <button class="categoryButton">Lunch</button>
+        <button class="categoryButton">Shakes</button>
+        <button class="categoryButton">Dinner</button>
+      </div>
+    </header>
+
+    <section id="allDishes">
+      <div class="dish">
+        <img src="./images/buttermilkpancake.jpeg" alt="buttermilk pan cake]">
+        <div class="dishOuter">
+         <div class="dishInner">
+           <h3 class="dishName">Buttermilk Pancake</h3>
+           <h3 class="dishPrice">$10.00</h3>
+         </div>
+         <hr />
+         <p class="dishContent">
+           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis eaque harum minus quibusdam bl
+           anditiis nobis ut doloremque saepe repellat consectetur porro asperiores hic eum, aperiam iure
+           quos. Placeat, porro hic.
+         </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <h1 id="cartDisplayTitle">Your Cart</h1>
+    <div id="headerBar"></div>
+    <section id="cart">
+      <div class="cartDish">
+        <img src="./images/item-10.jpeg" alt="">
+        <h3>Name</h3>
+        <h3>Price</h3>
+        <h3>Quantity</h3>
+        <button>Remove</button>
+      </div>
+    </section>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
